@@ -1,0 +1,16 @@
+[project]
+name = "calculus_1_project"
+version = "0.1.0"
+description = "Simulation video for HCMUT Calculus 1 Project using Manim Python library"
+authors = [
+    { name = "Dong, N. Doan", email = "doannguyendong1808@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "manim>=0.19.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
